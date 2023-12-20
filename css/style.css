@@ -435,3 +435,13 @@ img {
     margin-bottom: 24px;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .result-box {
+    padding: 24px 32px 36px;
+  }
+
+  .summary-box {
+    padding: 24px 16px;
+  }
+}
