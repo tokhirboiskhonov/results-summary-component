@@ -21,21 +21,6 @@ const data = [
   },
 ];
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   const elStatsListItem = document.querySelectorAll(".stats-list__item");
-
-//   elStatsListItem.forEach(function (elStatsItem, index) {
-//     elStatsItem.classList.add(
-//       `stats-list__item--${data[index].category.toLowerCase()}`
-//     );
-//     elStatsItem.querySelector(".stats-list__item-icon").src = data[index].icon;
-//     elStatsItem.querySelector(".stats-list__item-title").textContent =
-//       data[index].category;
-//     elStatsItem.querySelector(".stats-list__item-result").textContent =
-//       data[index].score;
-//   });
-// });
-
 document.addEventListener("DOMContentLoaded", () => {
   const elStatsList = document.querySelector(".stats-list");
   const elStatsContentFragment = document.createDocumentFragment();
